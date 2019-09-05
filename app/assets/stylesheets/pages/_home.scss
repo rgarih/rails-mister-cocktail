@@ -1,1 +1,36 @@
 // Specific CSS for your home-page
+#bannerimage {
+  width: 100%;
+  background-image: url(http://www.shoes-navi.com/wp-content/uploads/dessin-cocktail-design-ensemble-de-cocktails-clipart-vectoriel-de-dessin-cocktail-design.jpg);
+  height: 405px;
+  background-position: center;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  font-family: 'Livvic', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Livvic', sans-serif;
+}
+
+.btn-ghost {
+  color: #4A4A4A;
+  border: 4px solid #4A4A4A;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  font-weight: bolder;
+  margin: 20px;
+}

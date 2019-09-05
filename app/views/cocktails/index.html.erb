@@ -1,0 +1,13 @@
+
+<div id="bannerimage">
+  <%= link_to "Add a cocktail", new_cocktail_path, class: "btn btn-ghost"%>
+
+  </div>
+<div id="list">
+<h1>CocktailsBar</h1>
+
+  <% @cocktails.each do |cocktail| %>
+    <h2><%= cocktail.name %></h2>
+  <% end %>
+
+</div>
